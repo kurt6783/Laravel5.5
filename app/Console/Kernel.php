@@ -47,6 +47,7 @@ class Kernel extends ConsoleKernel
                 array_push($arr,now());
                 DB::insert('INSERT INTO constellation (name,overall,love,cause,fortune,created_at)VALUES
                                                       (?,?,?,?,?,?)', $arr);
+                
             }
         })->hourly();
 
