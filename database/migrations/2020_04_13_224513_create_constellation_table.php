@@ -21,6 +21,7 @@ class CreateConstellationTable extends Migration
             $table->string('cause',255);
             $table->string('fortune',255);
             $table->timestamps();
+            
         });
     }
 
