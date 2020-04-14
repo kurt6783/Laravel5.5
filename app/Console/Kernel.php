@@ -49,7 +49,7 @@ class Kernel extends ConsoleKernel
                                                       (?,?,?,?,?,?)', $arr);
             }
         })->hourly();
-        
+
         // $schedule->call(function () {
         //     Log::info('success');
         // })->everyMinute();
